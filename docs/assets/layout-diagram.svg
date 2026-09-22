@@ -1,0 +1,60 @@
+<svg viewBox="0 0 800 480" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect width="800" height="480" fill="#FFFFFF"/>
+
+  <!-- Sidebar -->
+  <rect x="20" y="20" width="220" height="440" fill="#1B2A4A"/>
+  <rect x="40" y="45" width="28" height="28" fill="#B8860B"/>
+  <text x="78" y="55" font-size="13" fill="#FFFFFF" font-weight="bold">Springfield</text>
+  <text x="78" y="70" font-size="13" fill="#FFFFFF" font-weight="bold">School Register</text>
+  <line x1="20" y1="95" x2="240" y2="95" stroke="#FFFFFF" stroke-opacity="0.15"/>
+
+  <text x="40" y="120" font-size="10" fill="#9AA3B5">ACADEMICS</text>
+  <rect x="30" y="130" width="200" height="26" fill="#B8860B" fill-opacity="0.15"/>
+  <rect x="30" y="130" width="3" height="26" fill="#B8860B"/>
+  <text x="40" y="147" font-size="12" fill="#FFFFFF">Academic Setup</text>
+  <text x="40" y="177" font-size="12" fill="#C9CEDA">Exam Setup</text>
+  <text x="40" y="200" font-size="12" fill="#C9CEDA">Report Cards</text>
+
+  <text x="40" y="235" font-size="10" fill="#9AA3B5">PEOPLE</text>
+  <text x="40" y="255" font-size="12" fill="#C9CEDA">Students</text>
+  <text x="40" y="278" font-size="12" fill="#C9CEDA">Teachers</text>
+  <text x="40" y="301" font-size="12" fill="#C9CEDA">Parents</text>
+
+  <line x1="20" y1="400" x2="240" y2="400" stroke="#FFFFFF" stroke-opacity="0.15"/>
+  <text x="40" y="425" font-size="12" fill="#FFFFFF">Super Admin</text>
+  <text x="40" y="440" font-size="10" fill="#9AA3B5">Super Admin</text>
+  <text x="40" y="465" font-size="12" fill="#C9CEDA">Sign out</text>
+
+  <!-- Content area -->
+  <rect x="240" y="20" width="540" height="440" fill="#F7F6F3"/>
+  <rect x="240" y="20" width="540" height="70" fill="#FFFFFF" stroke="#E4E1D8"/>
+  <text x="270" y="55" font-size="18" fill="#22262B" font-family="Georgia, serif">Academic Setup</text>
+  <text x="270" y="75" font-size="11" fill="#6B7280">Classes, sections, subjects, and the academic calendar</text>
+
+  <!-- Stat cards -->
+  <rect x="270" y="110" width="150" height="70" fill="#FFFFFF" stroke="#E4E1D8"/>
+  <text x="285" y="132" font-size="10" fill="#6B7280">Academic year</text>
+  <text x="285" y="160" font-size="20" fill="#22262B" font-family="Georgia, serif">2026-2027</text>
+
+  <rect x="435" y="110" width="150" height="70" fill="#FFFFFF" stroke="#E4E1D8"/>
+  <text x="450" y="132" font-size="10" fill="#6B7280">Classes</text>
+  <text x="450" y="160" font-size="20" fill="#22262B" font-family="Georgia, serif">13</text>
+
+  <rect x="600" y="110" width="150" height="70" fill="#FFFFFF" stroke="#E4E1D8"/>
+  <text x="615" y="132" font-size="10" fill="#6B7280">Subjects</text>
+  <text x="615" y="160" font-size="20" fill="#22262B" font-family="Georgia, serif">6</text>
+
+  <!-- Panel -->
+  <rect x="270" y="200" width="480" height="220" fill="#FFFFFF" stroke="#E4E1D8"/>
+  <line x1="270" y1="235" x2="750" y2="235" stroke="#E4E1D8"/>
+  <text x="285" y="222" font-size="12" fill="#22262B">Academic Years</text>
+  <line x1="285" y1="260" x2="735" y2="260" stroke="#F0EEE7"/>
+  <text x="285" y="253" font-size="11" fill="#6B7280">Name</text>
+  <text x="450" y="253" font-size="11" fill="#6B7280">Start</text>
+  <text x="600" y="253" font-size="11" fill="#6B7280">Current</text>
+  <text x="285" y="283" font-size="11" fill="#22262B">2026-2027</text>
+  <text x="450" y="283" font-size="11" fill="#22262B">2026-04-01</text>
+  <text x="600" y="283" font-size="11" fill="#B8860B">● Current</text>
+
+  <text x="400" y="475" font-size="10" fill="#6B7280" text-anchor="middle">Fixed navy sidebar (role-aware nav) + paper content area (PageHeader → StatCards → Panels)</text>
+</svg>
