@@ -1,0 +1,13 @@
+{
+  "name": "HashEdu — School Management System",
+  "short_name": "HashEdu",
+  "description": "Attendance, marks, report cards, and fees — one place for admins, teachers, students, and parents.",
+  "start_url": "/login",
+  "display": "standalone",
+  "background_color": "#F7F6F3",
+  "theme_color": "#1B2A4A",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
